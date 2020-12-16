@@ -1,0 +1,4 @@
+host: 'localhost'
+database: 'mineutopia'
+user: 'root'
+password: ''

@@ -1,0 +1,10 @@
+name: MineUtopia
+version: @version@
+main: net.mineutopia.rpg.MineUtopia
+api-version: 1.16
+
+commands:
+  get:
+    description: get command.
+  debug:
+    description: debug command.
