@@ -1,4 +1,4 @@
-package net.mineutopia.rpg.mob.nms.v1_16_R2.pathfinder
+package net.mineutopia.rpg.entity.nms.v1_16_R2.pathfinder
 
 import net.minecraft.server.v1_16_R2.PathfinderGoal
 

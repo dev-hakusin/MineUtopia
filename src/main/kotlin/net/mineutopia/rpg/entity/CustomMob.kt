@@ -1,4 +1,4 @@
-package net.mineutopia.rpg.mob
+package net.mineutopia.rpg.entity
 
 interface CustomMob {
     val id: String

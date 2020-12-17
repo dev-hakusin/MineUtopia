@@ -1,7 +1,7 @@
 package net.mineutopia.rpg.listener
 
 import net.mineutopia.rpg.extension.customId
-import net.mineutopia.rpg.mob.MobData
+import net.mineutopia.rpg.entity.MobData
 import net.mineutopia.rpg.util.MobNameUtil
 import org.bukkit.entity.LivingEntity
 import org.bukkit.entity.Player

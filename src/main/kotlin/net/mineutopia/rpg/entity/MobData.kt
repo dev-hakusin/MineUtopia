@@ -1,4 +1,4 @@
-package net.mineutopia.rpg.mob
+package net.mineutopia.rpg.entity
 
 object MobData {
     private val map: MutableMap<String, CustomMob> = mutableMapOf()

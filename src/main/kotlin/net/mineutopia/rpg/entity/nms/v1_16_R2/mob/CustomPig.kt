@@ -1,9 +1,9 @@
-package net.mineutopia.rpg.mob.nms.v1_16_R2
+package net.mineutopia.rpg.entity.nms.v1_16_R2.mob
 
 import net.minecraft.server.v1_16_R2.*
 import net.mineutopia.rpg.extension.customId
-import net.mineutopia.rpg.mob.CustomMob
-import net.mineutopia.rpg.mob.MobStats
+import net.mineutopia.rpg.entity.CustomMob
+import net.mineutopia.rpg.entity.MobStats
 import net.mineutopia.rpg.util.MobNameUtil
 import org.bukkit.Location
 import org.bukkit.craftbukkit.v1_16_R2.CraftWorld

@@ -1,6 +1,6 @@
 package net.mineutopia.rpg.util
 
-import net.mineutopia.rpg.mob.MobStats
+import net.mineutopia.rpg.entity.MobStats
 import org.bukkit.ChatColor
 
 object MobNameUtil {

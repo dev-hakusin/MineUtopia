@@ -14,11 +14,12 @@ import net.mineutopia.rpg.listener.EntityListener
 import net.mineutopia.rpg.listener.InventoryListener
 import net.mineutopia.rpg.listener.PlayerListener
 import net.mineutopia.rpg.listener.SnowBallListener
-import net.mineutopia.rpg.mob.CustomMob
-import net.mineutopia.rpg.mob.nms.v1_16_R2.CustomPig
+import net.mineutopia.rpg.entity.CustomMob
+import net.mineutopia.rpg.entity.nms.v1_16_R2.mob.CustomPig
 import net.mineutopia.rpg.skill.Skill
 import net.mineutopia.rpg.skill.skills.DebugSkill
 import net.mineutopia.rpg.util.DatabaseUtil
+import net.mineutopia.rpg.util.NpcUtil
 import org.bukkit.command.CommandExecutor
 import org.bukkit.event.Listener
 import org.bukkit.plugin.java.JavaPlugin
@@ -58,6 +59,7 @@ class MineUtopia : JavaPlugin() {
                 Commands("get", CommandGet),
                 Commands("debug", CommandDebug)
         )
+        NpcUtil.registerManager()
 
         DatabaseUtil.prepareDatabase()
 
